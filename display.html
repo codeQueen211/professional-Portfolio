@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dispaly</title>
+    <link rel="stylesheet" href="display.css">
+    <script src="display.js" defer></script>
+</head>
+<body>
+    <div class="banner">
+         <p style="font-size: 20px;"><i>Welcome to Sara Omar's portfolio!</i></p>
+         <button class="info" onclick="scrollToSection()"><i>Info</i></button>
+         <button class="contact" onclick="scrollToContact()"><i>Contact</i></button>
+         <button class="education" onclick="scrollToEdu()"><i>Education</i></button>
+         <button class="skills" onclick="scrollToSkills()"><i>Skills</i></button>
+       
+    </div>
+    <div class="container">
+       <h1>Here are Some of my best projects!</h1>
+       <h2>I have developed a number of other fun and interactive projects</h2>
+       <h3>They are all displayed at my <a href="https://github.com/codeQueen211">Github👆🏻🖱️</a></h3>
+    </div>
+    <div class="projects">
+        <div class="proj-1"><h1 class="title-proj">Project1-Demo</h1><p  class="line-proj">A demo for a Quiz app</p><p style="text-align: center;"> ⬇️</p><button class="proj-B" id="proj1" onclick="openProj1()">Live demo🌟</button></div>
+        <div class="proj-2"><h1 class="title-proj">Project2-Demo</h1><p  class="line-proj">A demo for a count down app</p><p style="text-align: center;"> ⬇️</p><button class="proj-B" id="proj2" onclick="openProj2()">Live demo🌟</button></div>
+        <div class="proj-3"><h1 class="title-proj">Project3-Demo</h1><p  class="line-proj">A demo for 3 styled buttons</p><p style="text-align: center;"> ⬇️</p><button class="proj-B" id="proj3" onclick="openProj3()">Live demo🌟</button></div>
+        <div class="proj-4"><h1 class="title-proj">Project4-Demo</h1><p  class="line-proj">A demo for a math website</p><p style="text-align: center;"> ⬇️</p><button class="proj-B" id="proj4" onclick="openProj4()">Live demo🌟</button></div>
+    </div>
+    <!-- <hr> -->
+    <div class="info-section">
+        <section id="section1">
+            <h1>Info📱:</h1>
+            <p style="font-size: 20px;">I'm a 23-year-old front-end developer passionate about crafting interactive and user-friendly websites and applications. </p>
+            <p style="font-size: 20px;">My journey revolves around creating compelling personal websites and innovative applications to elevate user experiences.</p> 
+            <p style="font-size: 20px;"> Through my expertise in HTML, CSS, and JavaScript,I strive to blend aesthetics with functionality, </p>
+            <p style="font-size: 20px;"> aiming to deliver seamless digital solutions.</p>
+            <ul>
+                <li style="font-size: 20px;">Front-end Developer</li>
+                <li style="font-size: 20px;">23 years old</li>
+                <li style="font-size: 20px;">Creating personal websites and apps</li>
+                <li style="font-size: 20px;">Offering front-end development services</li>
+            </ul>
+        </section>
+    </div>
+    <!-- <hr> -->
+    <div class="contact-section">
+        <section id="section2">
+            <h1>Contact Me🌐:</h1>
+            <p style="font-size: 20px;">You can contact me via the following:</p>
+            <ul>
+                <li style="font-size: 20px; display: flex;"> <img src="icons8-gmail-48.png" alt="linkedinlogo" height="30px" width="30px" style="margin-right: 5px;">: osara7846@gmail.com</li>
+                <li style="font-size: 20px; display: flex; align-items: center;"><img src="icons8-linkedin-logo-48.png" alt="linkedinlogo" height="30px" width="30px" style="margin-right: 5px;"><a href="https://www.linkedin.com/in/sara-omar-224b3a21b/">: LinkedIn</a></li>
+                <li style="font-size: 20px;display: flex;"> <img src="icons8-github-48.png" alt="linkedinlogo" height="30px" width="30px" style="margin-right: 5px;"><a href="https://github.com/codeQueen211">: Github</a> </li>
+            </ul>
+        </section>
+    </div>
+    <!-- <hr> -->
+    <div class="edu-section">
+        <section  id="section3">
+            <h1>Education & Certifications📚::</h1>
+            <p style="font-size: 20px;">I'm currently pursuing a Bachelor of Science degree in Computer Science and Mathematics at Technion. Alongside my academic endeavors, I've earned certifications in front-end development from Meta and digital marketing from Google. Additionally, my GitHub profile showcases numerous other certifications and projects, reflecting my continuous learning and dedication to expanding my skills in the tech industry.</p>
+            <p style="font-size: 20px;">Feel free to explore my GitHub repository and my LinkedIn for a comprehensive list of my certifications and projects.</p>
+            <img src="metaphoto.png"   alt="meta" height="150px" width="150px">
+            <img src="googlephoto.png" alt="google" height="150px" width="150px">
+            <img src="pythonphoto.png" alt="python" height="150px" width="150px">
+            <img src="yalephoto.png"   alt="react" height="150" width="150px">
+            <img src="udemyphoto.png"  alt="react" height="150" width="150px">
+            <img src="cphoto.png" alt="react" height="150px" width="150px">
+        </section>
+    </div>
+    <!-- <hr> -->
+    <div class="skills-section">
+        <section id="section4">
+            <h1>Skills👓:</h1>
+            <p style="font-size: 20px;">As a front-end developer, I possess a diverse skill set enabling me to create engaging and responsive web interfaces. Here are some of my primary skills:</p>
+            <ul>
+             <li style="font-size: 20px;">HTML5 &amp; CSS3: Crafting structured and visually appealing layouts.</li>
+             <li style="font-size: 20px;">JavaScript &amp; Frameworks: Proficient in vanilla JS and experienced with frameworks like React or Vue.js.</li>
+             <li style="font-size: 20px;">Responsive Design: Developing websites that seamlessly adapt to various devices and screen sizes.</li>
+             <li style="font-size: 20px;">UI/UX Design Principles: Applying design principles to enhance user experiences and interface aesthetics.</li>
+          </ul>
+          <img src="icons8-python-94.png" alt="iconpyhton" height="50px" width="50px">
+          <img src="icons8-js-100.png" alt="iconpyhton" height="50px" width="50px">
+          <img src="icons8-sql-100.png" alt="iconpyhton" height="50px" width="50px">
+          <img src="icons8-c-48.png" alt="iconpyhton" height="50px" width="50px">
+          <img src="icons8-css-48.png" alt="iconpyhton" height="50px" width="50px">
+          <img src="icons8-html-48.png" alt="iconpyhton" height="50px" width="50px">
+          <img src="icons8-react-16.png" alt="iconpyhton" height="50px" width="50px">
+          <img src="VUE.png" alt="iconpyhton" height="50px" width="50px">
+        </section>
+    </div>
+    <img src="https://media.giphy.com/media/L1R1tvI9svkIWwpVYr/giphy.gif" alt="lastGif" width="500px" style="display: block; margin: 100px auto">
+    <div class="attribute">
+        <p class="sent">Created by <a href="">Sara Omar</a></p>
+    </div>
+</body>
+</html>
